@@ -65,5 +65,13 @@ text-decoration-line: none;
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 40px;
+    margin-top: 60px;
+    color: white;
+    padding-top: 200px;
 }
+
+.infop{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
