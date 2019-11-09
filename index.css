@@ -1,11 +1,12 @@
 
 
 @import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ultra&display=swap');
 
 .navw{
     background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('images/pizaW.jpg');
     height:80vh;
-    width: 100%%
+    width: 100%; 
 }
 
 .ontop{
@@ -32,3 +33,37 @@ body,html{
     background-repeat: no-repeat;
     background-size: cover;
  }
+
+ .head{
+    font-family: 'Ultra', serif;
+    font-size: 35px;
+    
+ }
+.one{
+ display: flex;
+ justify-content: center;
+}
+
+form{
+    background-color:skyblue;
+   width: 50%;
+   padding: 30px;
+}
+.book{
+ text-decoration: none;
+ background-color:white;
+ 
+}
+.book a{
+text-decoration-line: none;
+}
+
+/*INFO*/
+.info{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(images/para.jpg);
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+}
