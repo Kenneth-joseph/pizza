@@ -11,7 +11,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Ultra&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
-
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous">
+     </script>  
 </head>
 <body>
 <div class="container-fliud">
@@ -40,19 +44,24 @@
 <form>
     <div class="form-group">
       <label>Name</label>
-      <input type="text"  placeholder="name" class="form-control">
+      <input type="text"  placeholder="name" class="form-control" required>
     </div>
 
     <div class="form-group">
       <label>Email</label>
-      <input type="email" placeholder="email"  class="form-control">
+      <input type="email" placeholder="email"  class="form-control" required>
     </div>
     
     <div class="form-group">
         <label>password</label>
-        <input type="password" placeholder="password"  class="form-control">
+        <input type="password" placeholder="password"  class="form-control" required>
       </div>
-  
+      
+      <div class="form-group">
+          <label>phone number</label>
+          <input type="number" placeholder="phone number"  class="form-control" required>
+        </div>
+    
       <button type="button" class="btn btn-danger">LOG IN</button>
       <button type="button" class="btn btn-link book"><a href="https://www.youtube.com/">GET BOOKING</a></button>
 
@@ -77,18 +86,77 @@
 </div>
 </div>
 <!--BOOKING FORM-->
-<div class="row">
+  <div class="row">
     <h2 id="bok_h">BOOK ME NOW</h3>
+      <div class="col-lg-12 col-md-6">
+      <div class="book_f text-center">
+      <form action="">
+          <label for="select">Select Your Flavor</label>
+          <select class=" custom-select custom-select-md mb-3 name" id="name">
+            <option value="Greek Pizza">Greek Pizza</option>
+            <option value="Chocolate pizza">Chocolate pizza</option>
+            <option value="Neapolitan Pizza">Neapolitan Pizza</option>
+            <option value="Iranian Pizza">Iranian Pizza</option>
+            <option value="York-style Pizza">York-style Pizza</option>
+            <option value="Spaghetti Pizza">Spaghetti Pizza</option>
+          </select>
+        <label for="select">Select Size</label>
+        <select class="browser-default custom-select custom-select-md mb-3" id="size">
+          <option selected value="0">Select your size</option>
+          <option value="large">Large</option>
+          <option value="medium">Medium</option>
+          <option value="small">Small</option>
+        </select>
+        <label for="crust">Choose your favorite Crust</label>
+          <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+              <option selected value="0">Select your preferred crust!</option>
+            <option value="Crispy">Crispy</option>
+            <option value="Stuffed">Stuffed</option>
+            <option value="Gluten-free">Gluten</option>
+            <option value="Flatbread">Flatbread</option>
+            <option value="Focaccia">Focaccia</option>
+          </select>
 
-<div class="col-lg-12 col-md-6">
-  <div class="book_f">
-
+        <label for="Toppings">Select Your Toppings at sh. 100 each</label><br>
+          <div class="custom-control custom-checkbox custom-control-inline">
+            <input type="checkbox" class="custom-control-input" id="Pineapple" value="Pineapple" name="toppings">
+            <label class="custom-control-label" for="Pineapple">Pineapple</label>
+          </div>
+          <div class="custom-control custom-checkbox custom-control-inline">
+            <input type="checkbox" class="custom-control-input" id="Pepperoni" value=" Pepperoni" name="toppings">
+            <label class="custom-control-label" for="Pepperoni">Pepperoni</label>
+          </div>
+          <div class="custom-control custom-checkbox custom-control-inline">
+              <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="toppings">
+              <label class="custom-control-label" for="Sausage">Sausage</label>
+          </div>
+          <div class="custom-control custom-checkbox custom-control-inline">
+              <input type="checkbox" class="custom-control-input" id="Garlic " value="Garlic" name="toppings">
+              <label class="custom-control-label" for="Garlic">Garlic</label>
+            </div>
+            <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="Mushrooms" value="Mushrooms" name="toppings">
+                <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
+              </div>
+          <div class="custom-control custom-checkbox custom-control-inline">
+            <input type="checkbox" class="custom-control-input" id="Raspberry" value="Raspberry" name="toppings">
+            <label class="custom-control-label" for="Raspberry">Raspberry</label>
+          </div>
+          <br><br>
+        <button type="submit" class="btn btn-secondary bg-secondary book">book</button>
+        
+      </form>
+    </div>
+    </div>
 </div>
 </div>
+<button type="button" id="click">hide/show</button>
+<div class="para">
+  <p>what the hell</p>
 </div>
 
-
 </div>
-<script src="script.js"></script>    
+<script src="script.js"></script>  
+
 </body>
 </html>
