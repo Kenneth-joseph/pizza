@@ -13,6 +13,7 @@ var Order=function(size,crust,topping){
 }
 
 $("document").ready(function(){
+    var total=0;
     $("button.book").click(function(event){
         event.preventDefault();
        var pSize=parseInt($("#size option:selected").val()); 
@@ -23,18 +24,21 @@ $("document").ready(function(){
 
     let price= (nOrder.Tprice());
 
+    total+=price;
 
       var Tsize= $("#size option:selected").text();
       var Tcrust= $("#crust option:selected").text();
       var Ttopping= $("#topping option:selected").text();
       var Tname= $("#name option:selected").text();
 
-      $("tbody:last").append("<tr>"+"<td>"+Tname+"</td>"+"<td>"+Tsize+"</td>"+"<td>" +Tcrust+ "</td>" +"<td>"+Ttopping+ "</td>" + "<td>" +price +"</td>"+"</tr>");
-    
-
+      $("tbody:last").append("<tr>"+"<td>"+Tname+"</td>"+"<td>"+Tsize+"</td>"+"<td>" +Tcrust+ "</td>" +"<td>"+Ttopping+ "</td>" + "<td>" +price +"</td>"+"</tr>")
+      
+      
     });
 
-
+    $("button#final").click(function(){
+        $("#price:last").text(total);
+    })
    
 });
 
