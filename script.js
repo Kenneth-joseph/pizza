@@ -39,6 +39,8 @@ $("document").ready(function(){
     $("button#final").click(function(){
         $("#price:last").text(total);
     })
+
+    $("button#deliver")
    
 });
 
