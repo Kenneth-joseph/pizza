@@ -84,7 +84,7 @@ text-decoration-line: none;
     background-size: cover;
     background-position: center;
     display: flex;
-    justify-content: center;
+    justify-content:space-around; 
     
 }
 
@@ -96,7 +96,15 @@ text-decoration-line: none;
 }
 
 form{
-width: 50%;
 color: white;
-/* text-align: center; */
+margin-left: 20px;
+
+}
+
+.table{
+padding-left: 40px;
+color: white;
+display: flex;
+justify-content: center;
+
 }
