@@ -19,6 +19,10 @@ $("document").ready(function(){
        var pSize=parseInt($("#size option:selected").val()); 
        var pCrust =parseInt($("#crust option:selected").val()); 
        var pTopping= parseInt($("#topping option:selected").val());
+       var nName= $("#nameO").val();
+      
+
+    
 
     let nOrder = new Order(pSize,pCrust,pTopping);
 
@@ -33,7 +37,7 @@ $("document").ready(function(){
 
       $("tbody:last").append("<tr>"+"<td>"+Tname+"</td>"+"<td>"+Tsize+"</td>"+"<td>" +Tcrust+ "</td>" +"<td>"+Ttopping+ "</td>" + "<td>" +price +"</td>"+"</tr>")
       
-      
+      alert("thanks " + nName + " for your add and you could make some more if you want")
     });
 
     $("button#final").click(function(){
@@ -43,11 +47,12 @@ $("document").ready(function(){
     $("button#finall").click(function(){
         $(".deliver").show();
     })
-
+     
     $("button#send").click(function(){
         $("#last").show();
+        // alert("thanks " + nName + "we have receieved your order and it will be delivered in time provided " )
     })
-   var nName
+  
 });
 
 
