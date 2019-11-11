@@ -12,10 +12,16 @@ var Order=function(size,crust,topping){
     
 }
 
+var fbooking =function(name,size,crust,topping){
+    this.name=name;
+    this.size=size;
+    this.crust=crust;
+    this.topping=topping;
+}
 
 $("document").ready(function(){
     $("button.book").click(function(event){
-        event.preventDefault()
+        event.preventDefault();
        var pSize=parseInt($("#size option:selected").val()); 
        var pCrust =parseInt($("#crust option:selected").val()); 
        var pTopping= parseInt($("#topping option:selected").val());
@@ -31,7 +37,8 @@ $("document").ready(function(){
       var Ttopping= $("#topping option:selected").text();
       var Tname= $("#name option:selected").text();
 
-      
+      $("tbody:last").append("<tr>"+"<td>"+Tname+"</td>"+"<td>"+Tsize+"</td>"+"<td>" +Tcrust+ "</td>" +"<td>"+Ttopping+ "</td>" + "<td>" +price +"</td>"+"</tr>");
+    
 
     });
 
