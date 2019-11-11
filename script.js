@@ -43,7 +43,11 @@ $("document").ready(function(){
     $("button#finall").click(function(){
         $(".deliver").show();
     })
-   
+
+    $("button#send").click(function(){
+        $("#last").show();
+    })
+   var nName
 });
 
 
