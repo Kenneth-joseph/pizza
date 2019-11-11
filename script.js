@@ -40,7 +40,9 @@ $("document").ready(function(){
         $("#price:last").text(total);
     })
 
-    $("button#deliver")
+    $("button#finall").click(function(){
+        $(".deliver").show();
+    })
    
 });
 

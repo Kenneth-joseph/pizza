@@ -106,11 +106,12 @@ padding-left: 40px;
 color: white;
 }
 
-#final{
+#final,#finall{
 color:white;
 }
 
 .deliver{
     width: 30%;
     margin: 0 auto;
+    display: none;
 }
