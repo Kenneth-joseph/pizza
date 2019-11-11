@@ -3,20 +3,13 @@ var Order=function(size,crust,topping){
     this.size=size;
     this.crust=crust;
     this.topping=topping
-    // this.price=price;
+
     
     Order.prototype.Tprice= function()
     {
     return this.size + this.crust + this.topping
     }
     
-}
-
-var fbooking =function(name,size,crust,topping){
-    this.name=name;
-    this.size=size;
-    this.crust=crust;
-    this.topping=topping;
 }
 
 $("document").ready(function(){
@@ -29,7 +22,6 @@ $("document").ready(function(){
     let nOrder = new Order(pSize,pCrust,pTopping);
 
     let price= (nOrder.Tprice());
-    // alert(price);
 
 
       var Tsize= $("#size option:selected").text();

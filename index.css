@@ -90,8 +90,8 @@ text-decoration-line: none;
 
 #bok_h{
     font-family: 'Courgette', cursive;
-    margin: 0 auto;
     margin-top: 30px;
+    text-align: center;
     
 }
 
@@ -104,7 +104,4 @@ margin-left: 20px;
 .table{
 padding-left: 40px;
 color: white;
-display: flex;
-justify-content: center;
-
 }
