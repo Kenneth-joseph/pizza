@@ -20,6 +20,7 @@ $("document").ready(function(){
        var pCrust =parseInt($("#crust option:selected").val()); 
        var pTopping= parseInt($("#topping option:selected").val());
        var nName= $("#nameO").val();
+       var nlocation=$("#loc").val();
       
 
     
@@ -37,7 +38,7 @@ $("document").ready(function(){
 
       $("tbody:last").append("<tr>"+"<td>"+Tname+"</td>"+"<td>"+Tsize+"</td>"+"<td>" +Tcrust+ "</td>" +"<td>"+Ttopping+ "</td>" + "<td>" +price +"</td>"+"</tr>")
       
-      alert("thanks " + nName + " for your add and you could make some more if you want")
+      alert("thanks " + nName + " for your add and you could make some more if you want, this will be delivered in " + nlocation+ " on time")
     });
 
     $("button#final").click(function(){
@@ -48,7 +49,9 @@ $("document").ready(function(){
         $(".deliver").show();
     })
      
-    $("button#send").click(function(){
+    $("button#send").click(function(event){
+        // var nlocation=$(".location").val();
+        // alert(nlocation);
         $("#last").show();
         // alert("thanks " + nName + "we have receieved your order and it will be delivered in time provided " )
     })
