@@ -22,7 +22,7 @@
 > This site is meant for bussiness individuals who owns a pizza shop and would love to reach out his services to his customers who are, apparently going to be the main users since, its generally build for booking  
 ## Access the site
 > To access the website, click on the link provided here;
->[delani page](https://kenneth-joseph.github.io/delaniStudio/)
+>[pizza page](https://kenneth-joseph.github.io/pizza/)
 
 ## Technologies Used
 >The following are the list of technology used
