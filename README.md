@@ -16,7 +16,7 @@
 
 
  ## Description
->This page is meant give a brief elaboration to my portfolio and the services we offer to the user
+>This page is a great platform for bussiness where one can make his booking and plan for a delivery
 
 ## Who it serves
 >This site is meant for my clients who wants to view how we operate in our company and the services we offer and there quality 
