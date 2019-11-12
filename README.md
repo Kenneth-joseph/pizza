@@ -30,6 +30,7 @@
  - CSS
  - JAVASCRIPT
  - J Query
+ - Bootstrap 4
 
  ## Contact me
  > To contact me please call this number : 0708037786
