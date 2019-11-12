@@ -7,12 +7,12 @@
 
 ## Screenshots
 > **Visual presentation of my work**
- >>##### homepage
-![this shows the to page](images/readme/del1.png)
- >>##### contact us and form section
-![this shows the contact section](images/readme/del3.png)
->>##### what we do and portfolio
-![this shows the what we do section and portfolio](images/readme/del2.png)
+ >>##### form and top page section
+![this shows the top page](images/form.png)
+ >>##### provides more information 
+![this shows the contact section](images/more.png)
+>>##### booking section
+![this shows the what we do section and portfolio](images/book.png)
 
 
  ## Description
