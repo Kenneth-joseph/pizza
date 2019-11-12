@@ -42,10 +42,12 @@ $("document").ready(function(){
 
     $("button#final").click(function(event){
         $("#price:last").text(total);
+        $("#last").show();
         var nName= $("#nameO").val();
         var nlocation=$("#loc").val();
-
+        
             alert("thanks " + nName + " for your add and you could make some more if you want, this will be delivered in " + nlocation+ " on time")
+      
 
     })
 });
