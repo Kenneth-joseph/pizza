@@ -19,8 +19,7 @@
 >This page is a great platform for bussiness where one can make his booking and plan for a delivery
 
 ## Who it serves
->This site is meant for my clients who wants to view how we operate in our company and the services we offer and there quality 
-
+> This site is meant for bussiness individuals who owns a pizza shop and would love to reach out his services to his customers who are, apparently going to be the main users since, its generally build for booking  
 ## Access the site
 > To access the website, click on the link provided here;
 >[delani page](https://kenneth-joseph.github.io/delaniStudio/)
